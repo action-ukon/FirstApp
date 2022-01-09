@@ -26,12 +26,32 @@ struct ContentView: View {
                         ListRow(task: task.title, isCheck: task.checked)
                     }
                 }
-                Text("+")
-                    .font(.title)
+                if self.userData.isEditing {
+                    Draft()
+                }
+                else {
+                    Button(action: {
+                        self.userData.isEditing = true
+                    })
+                    {
+                        Text("+")
+                            .font(.title)
+                    }
+                }
             }
             .navigationBarTitle(Text("Tasks"))
-            .navigationBarItems(trailing: Text("Delete"))
+            .navigationBarItems(trailing: Button(action: {
+                DeleteTask()
+            })
+            {
+                Text("Delete")
+            })
         }
+    }
+    func DeleteTask() {
+            let necessaryTask =
+            self.userData.tasks.filter({!$0.checked})
+        self.userData.tasks = necessaryTask
     }
 }
 

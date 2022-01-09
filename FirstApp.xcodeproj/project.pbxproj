@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1CFA4A2278B2FD900136D3F /* Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CFA4A1278B2FD900136D3F /* Draft.swift */; };
 		E1D731472787F03000794832 /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D731462787F03000794832 /* FirstAppApp.swift */; };
 		E1D731492787F03000794832 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D731482787F03000794832 /* ContentView.swift */; };
 		E1D7314B2787F03900794832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D7314A2787F03900794832 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1CFA4A1278B2FD900136D3F /* Draft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draft.swift; sourceTree = "<group>"; };
 		E1D731432787F03000794832 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D731462787F03000794832 /* FirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppApp.swift; sourceTree = "<group>"; };
 		E1D731482787F03000794832 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				E1D731462787F03000794832 /* FirstAppApp.swift */,
 				E1D731482787F03000794832 /* ContentView.swift */,
+				E1CFA4A1278B2FD900136D3F /* Draft.swift */,
 				E1EC0ADA2788705D0098A3DB /* UserTask.swift */,
 				E1EC0AD827886F720098A3DB /* UserData.swift */,
 				E1EC0AD6278859F70098A3DB /* ListRow.swift */,
@@ -149,6 +152,7 @@
 				E1EC0ADB2788705D0098A3DB /* UserTask.swift in Sources */,
 				E1D731492787F03000794832 /* ContentView.swift in Sources */,
 				E1D731472787F03000794832 /* FirstAppApp.swift in Sources */,
+				E1CFA4A2278B2FD900136D3F /* Draft.swift in Sources */,
 				E1EC0AD927886F720098A3DB /* UserData.swift in Sources */,
 				E1EC0AD7278859F70098A3DB /* ListRow.swift in Sources */,
 			);
